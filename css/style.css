@@ -17,6 +17,55 @@
     color: var(--main-text-color);
     letter-spacing: 0.03em;
   }
+  .nav-link link{
+    width: 49px;
+    height: 16px;
+    
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #2196F3;
+    }
+  .logo-link link{
+    width: 1600px;
+    height: 80px;
+    
+    
+    background: #FFFFFF}
+ 
+ .slide{
+    width: 1600px;
+    height: 600px;
+    
+    
+    background: #2F303A;}   .hero-description {
+width: 1600px;
+height: 600px;
+
+
+background: #2F303A;
+
+width: 696px;
+height: 120px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;}
+  
   
   .list {
     list-style: none;
@@ -31,7 +80,15 @@
   }
   
   /*===header===*/
-  
+  .buttonly{
+    width: 136px;
+height: 30px;font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;color: #FFFFFF;background: #2196F3;
+width: 200px;
+height: 50px}
   .logo-link {
     font-family: var(--logo-font);
     font-weight: 700;
@@ -158,7 +215,14 @@
     background-color: var(--portfolio-buttons-backgrount-color);
     cursor: pointer;
   }
-  
+  .buttony{width: 29px;
+    height: 26px;font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;color: #FFFFFF;
+    background: #2196F3;width: 73px;
+    height: 38px;}
   .filter-buttons:hover,
   .filter-buttons:focus {
     color: var(--dark-background-text-color);
